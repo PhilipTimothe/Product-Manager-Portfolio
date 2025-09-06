@@ -1,1 +1,8 @@
-{}
+{
+  "/page": "app/page.js",
+  "/about/page": "app/about/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/projects/whitecoatlab/page": "app/projects/whitecoatlab/page.js",
+  "/projects/loan-default-risk-analysis/page": "app/projects/loan-default-risk-analysis/page.js",
+  "/projects/micro-documentary/page": "app/projects/micro-documentary/page.js"
+}
