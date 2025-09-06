@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { ParallaxCard } from './parallax';
 import { cn } from '@/lib/utils';
 
 interface CaseStudyCardProps {
@@ -30,7 +29,7 @@ export function CaseStudyCard({
   const category = tags?.[2] ?? '';
 
   return (
-    <ParallaxCard className={cn('group', className)}>
+    <div className={cn('group', className)}>
       <Link
         href={href}
         className="block focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-4 rounded-[22px]"
@@ -75,6 +74,6 @@ export function CaseStudyCard({
           </div>
         </article>
       </Link>
-    </ParallaxCard>
+    </div>
   );
 }

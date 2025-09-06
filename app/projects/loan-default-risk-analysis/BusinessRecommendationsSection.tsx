@@ -9,7 +9,7 @@ export function BusinessRecommendationsSection() {
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
+        viewport={{ once: true, margin: '-50px' }}
         transition={{ duration: 0.6 }}
         className="max-w-4xl"
       >
@@ -53,7 +53,7 @@ export function BusinessRecommendationsSection() {
               key={recommendation.title}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: '-50px' }}
               transition={{ duration: 0.4, delay: index * 0.1 }}
               className="bg-surface rounded-lg p-6 shadow-sm border border-border/10"
             >

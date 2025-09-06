@@ -2,33 +2,25 @@
 
 import { Container } from '@/components/container';
 import { SectionHeading } from '@/components/section-heading';
-import { Navbar } from '@/components/navbar';
 import { BackButton } from "@/components/back-button";
 import { Footer } from '@/components/footer';
 import { Badge } from '@/components/badge';
-import { Parallax } from '@/components/parallax';
-import { skills, timeline } from '@/lib/content';
 import { motion } from 'framer-motion';
 import {
-  SiAdobeillustrator,
   SiAdobephotoshop,
   SiFigma,
   SiCss3,
   SiReact,
   SiFramer,
-  SiTailwindcss,
   SiJira,
   SiTrello,
   SiConfluence,
   SiAsana,
-  SiMicrosoftproject,
   SiSlack,
-  SiGoogledrive,
   SiTableau,
   SiMysql,
   SiJupyter,
   SiGit,
-  SiAmazonaws,
   SiAdobe,          // fallback generic Adobe
 } from 'react-icons/si';
 
@@ -208,7 +200,6 @@ export default function About() {
 
                 // console check (remove after)
                 console.log('icon exists?', {
-                  SiAdobeillustrator: !!SiAdobeillustrator,
                   SiAdobephotoshop: !!SiAdobephotoshop,
                   SiFigma: !!SiFigma,
                 });

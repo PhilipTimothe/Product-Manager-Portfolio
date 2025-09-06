@@ -28,7 +28,7 @@ export function ProjectMeta({
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
+        viewport={{ once: true, margin: '-50px' }}
         transition={{ duration: 0.6 }}
         className={cn(
           'bg-surface rounded-lg p-8 shadow-sm border border-border/10 max-w-md mx-auto',
@@ -66,7 +66,7 @@ export function ProjectMeta({
                     key={tool}
                     initial={{ opacity: 0, scale: 0.8 }}
                     whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true }}
+                    viewport={{ once: true, margin: '-50px' }}
                     transition={{ duration: 0.4, delay: index * 0.1 }}
                     className="inline-flex items-center px-3 py-1.5 rounded-full text-xs font-medium bg-cream text-black border border-border/20"
                   >
@@ -86,7 +86,7 @@ export function ProjectMeta({
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
+      viewport={{ once: true, margin: '-50px' }}
       transition={{ duration: 0.6 }}
       className={cn(
         'bg-surface rounded-lg p-8 shadow-sm border border-border/10',
@@ -105,7 +105,7 @@ export function ProjectMeta({
                     key={contribution}
                     initial={{ opacity: 0, x: -10 }}
                     whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true }}
+                    viewport={{ once: true, margin: '-50px' }}
                     transition={{ duration: 0.4, delay: index * 0.1 }}
                     className="text-sm text-black/80 leading-relaxed font-light"
                   >
@@ -125,7 +125,7 @@ export function ProjectMeta({
                     key={member}
                     initial={{ opacity: 0, x: -10 }}
                     whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true }}
+                    viewport={{ once: true, margin: '-50px' }}
                     transition={{ duration: 0.4, delay: index * 0.1 }}
                     className="text-sm text-black/80 leading-relaxed font-light"
                   >
@@ -148,7 +148,7 @@ export function ProjectMeta({
                     key={tool}
                     initial={{ opacity: 0, scale: 0.8 }}
                     whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true }}
+                    viewport={{ once: true, margin: '-50px' }}
                     transition={{ duration: 0.4, delay: index * 0.1 }}
                     className="inline-flex items-center px-3 py-1.5 rounded-full text-xs font-medium bg-cream text-black border border-border/20"
                   >

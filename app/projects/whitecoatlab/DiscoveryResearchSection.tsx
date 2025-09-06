@@ -1,8 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Container } from "@/components/container";
-import Image from "next/image";
 import { FileText, BookOpen, Lightbulb } from "lucide-react";
 import { Section } from "../micro-documentary/common/Section";
 
@@ -12,7 +10,7 @@ export function DiscoveryResearchSection() {
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
+        viewport={{ once: true, margin: '-50px' }}
         transition={{ duration: 0.6 }}
         className="max-w-6xl mx-auto"
       >
@@ -37,6 +35,7 @@ export function DiscoveryResearchSection() {
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, margin: '-50px' }}
               transition={{ duration: 0.6 }}
               className="space-y-3"
             >
@@ -52,6 +51,7 @@ export function DiscoveryResearchSection() {
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, margin: '-50px' }}
               transition={{ duration: 0.6, delay: 0.2 }}
               className="space-y-3"
             >
@@ -67,6 +67,7 @@ export function DiscoveryResearchSection() {
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, margin: '-50px' }}
               transition={{ duration: 0.6, delay: 0.4 }}
               className="space-y-3"
             >
@@ -103,6 +104,7 @@ export function DiscoveryResearchSection() {
                 key={item.title}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: '-50px' }}
                 transition={{ duration: 0.5, delay: i * 0.15 }}
                 className="bg-gradient-to-br from-[#f9f9f9] to-[#f1f1f1] rounded-2xl p-6 shadow-sm hover:shadow-md transition-all duration-300"
               >

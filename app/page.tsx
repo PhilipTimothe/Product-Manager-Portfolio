@@ -3,11 +3,9 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { Container } from '@/components/container';
 import { Button } from '@/components/button';
 import { Footer } from '@/components/footer';
-import { Parallax } from '@/components/parallax';
 import { caseStudies } from '@/lib/content';
 
 export default function Home() {

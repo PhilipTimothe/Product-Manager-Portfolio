@@ -42,13 +42,13 @@ export function UpNextSection({ currentProjectId }: UpNextSectionProps) {
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, margin: '-50px' }}
           transition={{ duration: 0.6 }}
           className="flex items-center justify-start mb-12"
         >
           <div className="flex items-center gap-4">
             <h2 className="text-[clamp(32px,5vw,64px)] font-sans font-medium text-black leading-tight">
-              Next
+              Up Next
             </h2>
             <ArrowRightIcon className="w-8 h-8 text-black" strokeWidth={2} />
           </div>
@@ -61,7 +61,7 @@ export function UpNextSection({ currentProjectId }: UpNextSectionProps) {
               key={project.id}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: '-50px' }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               className="max-w-md mx-auto"
             >

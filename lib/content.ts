@@ -42,7 +42,7 @@ export const caseStudies: Project[] = [
     subtitle: "From Prediction to Protection",
     image: "/LoanDafault.png",
     href: "/projects/loan-default-risk-analysis",
-    meta: ["Loan Default Risk", "2024 – 2025", "Data Science | ML"],
+    meta: ["Loan Default Risk Analysis", "2024 – 2025", "Data Science | Machine Learning"],
     description: "I developed predictive models to analyze loan default patterns and identify high-risk borrowers. By combining data preprocessing, feature engineering, and advanced modeling, I built insights and recommendations to help financial institutions reduce defaults and improve lending strategies."
   }
 ];
