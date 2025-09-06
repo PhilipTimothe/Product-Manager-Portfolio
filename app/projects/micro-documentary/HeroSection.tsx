@@ -18,7 +18,7 @@ export function HeroSection() {
   return (
     <>
       {/* Treatment Image */}
-      <section className="pt-8 md:pt-12 lg:pt-16 pb-4 md:pb-6 lg:pb-8 bg-cream">
+      <section className="pt-2 md:pt-4 lg:pt-6 pb-4 md:pb-6 lg:pb-8 bg-cream">
         <Container>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -28,7 +28,7 @@ export function HeroSection() {
           >
             <div
               className="rounded-2xl p-12 shadow-lg noise-overlay"
-              style={{ backgroundColor: "#E8D5D7" }}
+              style={{ backgroundColor: "#DAC4BF" }}
             >
               <Image
                 src="/It all started - Treatment.001.png"

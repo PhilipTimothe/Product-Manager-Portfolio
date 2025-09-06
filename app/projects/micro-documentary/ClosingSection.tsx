@@ -31,9 +31,7 @@ export function ClosingSection() {
             </h3>
 
             <p className="text-xs md:text-sm text-white leading-relaxed font-light max-w-4xl mx-auto mb-0">
-              This wasn't just a film. It was a proof of concept: that even
-              without a budget, followers, or recognition, storytelling has the
-              power to transform perception.
+              This wasn't just a film. It was a proof of concept: that even without a budget, followers, or recognition, storytelling has the power to transform perception.
             </p>
           </div>
 
@@ -48,42 +46,33 @@ export function ClosingSection() {
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-white rounded-full mt-3 flex-shrink-0"></div>
                   <div>
-                    <span className="text-xs text-white font-medium">
-                      Authenticity Over Polish:
-                    </span>
+                    <span className="text-xs text-white font-medium">Authenticity Over Polish:</span>
                     <span className="text-xs text-white ml-2 leading-snug">
-                      Raw, candid moments resonated more than scripted content,
-                      creating genuine emotional connection.
+                      Raw, candid moments resonated more than scripted content, creating genuine emotional connection.
                     </span>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-white rounded-full mt-3 flex-shrink-0"></div>
                   <div>
-                    <span className="text-xs text-white font-medium">
-                      Multi-Location Storytelling:
-                    </span>
+                    <span className="text-xs text-white font-medium">Multi-Location Storytelling:</span>
                     <span className="text-xs text-white ml-2 leading-snug">
-                      Filming across NYC neighborhoods added depth and visual
-                      richness to the narrative.
+                      Filming across NYC neighborhoods added depth and visual richness to the narrative.
                     </span>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-white rounded-full mt-3 flex-shrink-0"></div>
                   <div>
-                    <span className="text-xs text-white font-medium">
-                      Brand Foundation:
-                    </span>
+                    <span className="text-xs text-white font-medium">Brand Foundation:</span>
                     <span className="text-xs text-white ml-2 leading-snug">
-                      The film became a cornerstone asset for all future
-                      marketing and outreach efforts.
+                      The film became a cornerstone asset for all future marketing and outreach efforts.
                     </span>
                   </div>
                 </li>
               </ul>
             </div>
-
+          
             {/* Right Column - Impact */}
             <div className="text-left">
               <h4 className="text-base md:text-lg font-sans font-semibold text-white mb-2 text-center">
@@ -93,36 +82,27 @@ export function ClosingSection() {
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-white rounded-full mt-3 flex-shrink-0"></div>
                   <div>
-                    <span className="text-xs text-white font-medium">
-                      Professional Presence:
-                    </span>
+                    <span className="text-xs text-white font-medium">Professional Presence:</span>
                     <span className="text-xs text-white ml-2 leading-snug">
-                      Transformed an unknown artist into a recognizable brand
-                      with clear identity and voice.
+                      Transformed an unknown artist into a recognizable brand with clear identity and voice.
                     </span>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-white rounded-full mt-3 flex-shrink-0"></div>
                   <div>
-                    <span className="text-xs text-white font-medium">
-                      Strategic Asset:
-                    </span>
+                    <span className="text-xs text-white font-medium">Strategic Asset:</span>
                     <span className="text-xs text-white ml-2 leading-snug">
-                      Used as anchor content for pitches to record labels and
-                      creative agencies.
+                      Used as anchor content for pitches to record labels and creative agencies.
                     </span>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-white rounded-full mt-3 flex-shrink-0"></div>
                   <div>
-                    <span className="text-xs text-white font-medium">
-                      Proof of Concept:
-                    </span>
+                    <span className="text-xs text-white font-medium">Proof of Concept:</span>
                     <span className="text-xs text-white ml-2 leading-snug">
-                      Demonstrated that compelling storytelling can build brands
-                      without massive budgets.
+                      Demonstrated that compelling storytelling can build brands without massive budgets.
                     </span>
                   </div>
                 </li>
@@ -130,11 +110,12 @@ export function ClosingSection() {
             </div>
           </div>
 
+
+
           {/* Bottom closing statement */}
           <div className="mt-4 pt-3 border-t border-white/10">
             <p className="text-xs md:text-sm text-white leading-relaxed font-light max-w-4xl mx-auto text-center">
-              By focusing on honesty, craft, and vision, the project did more
-              than showcase an artist — it built the foundation of a brand.
+              By focusing on honesty, craft, and vision, the project did more than showcase an artist — it built the foundation of a brand.
             </p>
           </div>
         </div>

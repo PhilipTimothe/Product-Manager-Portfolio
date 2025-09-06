@@ -3,6 +3,7 @@
 import { Container } from '@/components/container';
 import { SectionHeading } from '@/components/section-heading';
 import { Navbar } from '@/components/navbar';
+import { BackButton } from "@/components/back-button";
 import { Footer } from '@/components/footer';
 import { Badge } from '@/components/badge';
 import { Parallax } from '@/components/parallax';
@@ -34,6 +35,7 @@ import {
 export default function About() {
   return (
     <div className="min-h-screen bg-cream">
+      <BackButton />
       
       <main className="pt-32">
         <Container>

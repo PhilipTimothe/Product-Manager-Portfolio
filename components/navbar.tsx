@@ -21,7 +21,6 @@ export function Navbar() {
 
   const navigation = [
     { name: 'About', href: '/about' },
-    { name: 'Work', href: '/work' },
     { name: 'Contact', href: '/contact' },
   ];
 

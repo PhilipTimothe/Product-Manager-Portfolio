@@ -3,11 +3,9 @@ import Link from 'next/link';
 
 export function Footer() {
   const sectionLinks = [
-    { number: '1', name: 'Work', href: '/work' },
+    { number: '1', name: 'Home', href: '/' },
     { number: '2', name: 'About', href: '/about' },
-    { number: '3', name: 'Services', href: '/services' },
-    { number: '4', name: 'Writing', href: '/writing' },
-    { number: '5', name: 'Templates', href: '/templates' },
+    { number: '3', name: 'LinkedIn', href: 'https://www.linkedin.com/in/philiptimothe/' },
   ];
 
   return (
@@ -40,6 +38,8 @@ export function Footer() {
                     <div className="flex-1 border-t border-black/10"></div>
                     <Link
                       href={link.href}
+                     target={link.href.startsWith('http') ? '_blank' : undefined}
+                     rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
                       className="text-[14px] text-black/70 hover:text-black transition-colors duration-200 font-light"
                     >
                       {link.name}

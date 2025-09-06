@@ -76,7 +76,7 @@ export function SolutionVisionSection() {
           >
             <div
               className="rounded-2xl p-12 shadow-lg noise-overlay"
-              style={{ backgroundColor: "#E8D5D7" }}
+              style={{ backgroundColor: "#DAC4BF" }}
             >
               <Image
                 src="/It All Started With - Treatment.005.png"
