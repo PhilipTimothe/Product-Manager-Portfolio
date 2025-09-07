@@ -1279,6 +1279,9 @@ video {
 .mt-auto {
   margin-top: auto;
 }
+.mb-24 {
+  margin-bottom: 6rem;
+}
 .block {
   display: block;
 }
