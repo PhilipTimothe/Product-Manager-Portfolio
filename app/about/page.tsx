@@ -70,11 +70,11 @@ export default function About() {
             <div className="divide-y divide-border/10">
               {[
                 {
-                  title: "Product Manager",
+                  title: "Product | Content Lead",
                   company: "WhiteCoatLab",
                   years: "2023 to Present",
                   detail:
-                    "Owned discovery to launch for whitecoatlab.co. Built a mobile first React site with GitHub Actions and Cloudflare, and packaged services into clear offerings. Delivered film and photography projects end to end for clients, coordinating across creative and business teams to ensure quality and consistency.",
+                    "Led whitecoatlab.co from early idea through launch, shaping it into a product and content platform that helps people understand the work, the process, and how to engage. Defined the direction, structure, and priorities, then worked hands on to turn research and insights into clear UX flows, service offerings, and story driven content. Built and shipped a mobile first React site with CI CD and Cloudflare, and led creative projects end to end for clients, coordinating across teams to deliver thoughtful work and support steady revenue growth.",
                 },
                 {
                   title: "Software Engineer · Apprentice",
