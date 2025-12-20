@@ -20,6 +20,20 @@ export const caseStudies: Project[] = [
       "I led the strategy, design, and build of WhiteCoatLab's digital presence. From market research and user journey mapping to wireframes and execution, I aligned the brand identity with our creative services in film and photography. The site was designed to showcase portfolio work, reinforce trust with first-time visitors, and scale as a platform for future case studies.",
   },
   {
+    id: "catch-up-with-teddy",
+    title: "Catch Up with Teddy",
+    subtitle: "Designing Presence Through Conversation",
+    image: "/catchupwteddy.png",
+    href: "/projects/catch-up-with-teddy",
+    meta: [
+      "Catch Up with Teddy",
+      "2024 – Ongoing",
+      "Content & Product Strategy",
+    ],
+    description:
+      "I designed and executed a short-form social series to help a music artist establish an organic audience foundation. Through intentionally raw, conversational content, I built a repeatable system that balances authenticity with strategic structure, creating consistent touchpoints that build trust and recognition over time.",
+  },
+  {
     id: "micro-documentary",
     title: "It All Started",
     subtitle: "Crafting Authenticity in a Noisy Market",
@@ -43,7 +57,7 @@ export const caseStudies: Project[] = [
     id: "loan-default-risk-analysis",
     title: "Loan Default Risk Analysis",
     subtitle: "From Prediction to Protection",
-    image: "/CHat_Edit.png",
+    image: "/LoanDafault.png",
     href: "/projects/loan-default-risk-analysis",
     meta: [
       "Loan Default Risk Analysis",

@@ -26,7 +26,7 @@ export function RoleSection() {
 
         {/* Tagline */}
         <h4 className="text-[clamp(40px,7vw,110px)] font-sans font-medium text-black mb-2 leading-tight text-balance">
-          Shaping the Vision, Driving the Build
+          Shaping the Format, Driving the System
         </h4>
 
         {/* Main content grid */}
@@ -42,24 +42,25 @@ export function RoleSection() {
               className="space-y-3"
             >
               <p className="text-sm text-black/70 leading-relaxed font-light">
-                As{" "}
-                <span className="font-medium text-black">Product Manager</span>,
-                I led the end-to-end website development — from discovery
-                through launch. My role was to define the problem, align
-                stakeholders, and build a roadmap that turned a creative vision
-                into a business-ready platform.
+                I led this project end-to-end across both{" "}
+                <span className="font-medium text-black">
+                  product and content strategy
+                </span>
+                . On the product side, I designed the format, defined success
+                criteria, and structured the series as a repeatable system
+                rather than one-off videos.
               </p>
               <p className="text-sm text-black/70 leading-relaxed font-light">
-                I collaborated across{" "}
-                <span className="font-medium text-black">design</span>,
-                <span className="font-medium text-black"> engineering</span>,
-                and
+                On the content side, I handled{" "}
                 <span className="font-medium text-black">
-                  {" "}
-                  content creation
-                </span>{" "}
-                to balance artistic presentation with usability, ensuring clear
-                pathways to conversion.
+                  creative direction
+                </span>
+                ,<span className="font-medium text-black"> filming</span>,
+                <span className="font-medium text-black"> editing</span>, and
+                <span className="font-medium text-black"> packaging</span>. This
+                dual role allowed creative decisions to stay grounded in
+                strategy while ensuring the system remained realistic to execute
+                and scale.
               </p>
             </motion.div>
 
@@ -78,49 +79,56 @@ export function RoleSection() {
               <div className="space-y-3">
                 <div>
                   <h4 className="text-sm font-sans font-medium text-black mb-1">
-                    Discovery
+                    Product Strategy
                   </h4>
                   <p className="text-sm text-black/70 leading-relaxed font-light">
-                    Research, stakeholder alignment, and strategic planning to
-                    define the product vision.
+                    Format design, success criteria definition, and system
+                    architecture for scalable content production.
                   </p>
                 </div>
 
                 <div>
                   <h4 className="text-sm font-sans font-medium text-black mb-1">
-                    Execution
+                    Content Creation
                   </h4>
                   <p className="text-sm text-black/70 leading-relaxed font-light">
-                    Roadmap creation, milestone management, and cross-functional
-                    delivery coordination.
+                    Creative direction, filming, editing, and packaging across
+                    all episodes and touchpoints.
                   </p>
                 </div>
 
                 <div>
                   <h4 className="text-sm font-sans font-medium text-black mb-1">
-                    Launch & Impact
+                    System Design
                   </h4>
                   <p className="text-sm text-black/70 leading-relaxed font-light">
-                    Performance optimization, user feedback integration, and
-                    measuring business results.
+                    Workflow optimization, cadence planning, and sustainable
+                    execution frameworks.
                   </p>
                 </div>
               </div>
             </motion.div>
           </div>
 
-          {/* Right column - iPhone image */}
+          {/* Right column - Phone mockup placeholder */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-50px" }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="flex justify-center lg:justify-end overflow-hidden"
+            className="flex justify-center lg:justify-end overflow-visible"
           >
-            <div className="w-full max-w-lg lg:max-w-xl">
+            <div className="relative w-full max-w-sm bg-transparent">
+              {/* Realistic deep drop shadow */}
+              <div className="absolute inset-0 -z-10 rounded-[2rem] shadow-[0_40px_80px_rgba(0,0,0,0.4)] bg-transparent"></div>
+
+              {/* Soft bottom glow for realism */}
+              <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 w-[85%] h-[60px] bg-gradient-to-t from-black/20 to-transparent rounded-full blur-3xl"></div>
+
+              {/* The actual phone image */}
               <Image
-                src="https://imagedelivery.net/ly47schtw9lMeXBIbG9ODw/fb5be805-5ccb-41ea-f2ff-8ab150a77000/public"
-                alt="WhiteCoatLab Mobile Interface"
+                src="https://imagedelivery.net/ly47schtw9lMeXBIbG9ODw/46daeb7f-acfa-4a45-076e-f30c33466e00/public"
+                alt="Episode 3 CatchUpwithTeddy"
                 width={600}
                 height={1200}
                 className="w-full h-auto"
