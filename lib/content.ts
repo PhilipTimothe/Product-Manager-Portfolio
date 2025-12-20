@@ -23,7 +23,7 @@ export const caseStudies: Project[] = [
     id: "catch-up-with-teddy",
     title: "Catch Up with Teddy",
     subtitle: "Designing Presence Through Conversation",
-    image: "/catchupwteddy.png",
+    image: "/CatchUpwTeddy.png",
     href: "/projects/catch-up-with-teddy",
     meta: [
       "Catch Up with Teddy",

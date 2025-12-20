@@ -27,7 +27,7 @@ export function HeroSection() {
             className="flex justify-center"
           >
             <Image
-              src="/catchupwteddy.png"
+              src="/CatchUpwTeddy.png"
               alt="Catch Up with Teddy Content Series"
               width={1040}
               height={780}
