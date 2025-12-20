@@ -119,9 +119,6 @@ export function RoleSection() {
             className="flex justify-center lg:justify-end overflow-visible"
           >
             <div className="relative w-full max-w-sm bg-transparent">
-              {/* Realistic deep drop shadow */}
-              <div className="absolute inset-0 -z-10 rounded-[2rem] shadow-[0_40px_80px_rgba(0,0,0,0.4)] bg-transparent"></div>
-
               {/* Soft bottom glow for realism */}
               <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 w-[85%] h-[60px] bg-gradient-to-t from-black/20 to-transparent rounded-full blur-3xl"></div>
 
