@@ -398,7 +398,7 @@ export default function About() {
                 className="text-center"
               >
                 <a
-                  href="/Product_Manager_CV_Philip_Timothe.pdf"
+                  href="/Philip_Timothe_CV.pdf"
                   download="Philip_Timothe_Resume.pdf"
                   className="inline-flex items-center gap-2 bg-surface hover:bg-surface/80 text-black border border-border/20 rounded-full px-6 py-3 shadow-sm text-sm font-medium transition-all duration-200 hover:shadow-md"
                 >
