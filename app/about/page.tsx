@@ -45,12 +45,12 @@ export default function About() {
               transition={{ duration: 0.6, ease: "easeOut" }}
               className="text-md text-black text-balance font-sans font-light text-left"
             >
-              I am a product manager and engineer who is all about doing the
-              thing others would run from. Trained in data and computer science
-              and shaped by a love of film and photography. I can get dialed in
-              and go deep when it counts. I care about the journey, the small
-              wins, and the big shifts. My hope is to use my talents in a way
-              that breeds more positivity.
+              I am a product and content lead who is all about doing the thing
+              others would run from. Trained in data and computer science and
+              shaped by a love of film and photography. I can get dialed in and
+              go deep when it counts. I care about the journey, the small wins,
+              and the big shifts. My hope is to use my talents in a way that
+              breeds more positivity.
             </motion.p>
           </div>
 
@@ -70,7 +70,7 @@ export default function About() {
             <div className="divide-y divide-border/10">
               {[
                 {
-                  title: "Product | Content Lead",
+                  title: "Product and Content Lead",
                   company: "WhiteCoatLab",
                   years: "2023 to Present",
                   detail:

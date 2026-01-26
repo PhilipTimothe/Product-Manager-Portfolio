@@ -70,7 +70,7 @@ export default function Home() {
                   max-w-6xl md:max-w-7xl          /* generous line length */
                   mb-12 text-left"
               >
-                A product and content manager who blends
+                A product and content lead who blends
                 <span className="font-normal"> data</span>,
                 <span className="font-normal italic"> code</span>, and
                 <span className="font-normal"> storytelling </span>
