@@ -1,4 +1,4 @@
-// import "./globals.css";
+import "./globals.css";
 import type { Metadata } from "next";
 import { Inter, Cormorant_Garamond } from "next/font/google";
 
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description:
       "Technical Product & Operations Leader specializing in the collision of software engineering, data science, and operational efficiency. I build the structured frameworks and data-driven systems required to turn complex organizational friction into scalable digital products.",
     type: "website",
-    images: ["/PhilipTimothe.jpg"], // social sharing preview
+    images: ["/PhilipTimothe.jpg"], // social sharing preview s
   },
 
   twitter: {
