@@ -51,7 +51,7 @@ export default function Home() {
               >
                 <span className="text-lg md:text-xl">Philip Timothe</span>{" "}
                 <span className="text-base md:text-lg text-gray-400">
-                  — Product | Content Lead
+                  — Technical Product & Operations Leader
                 </span>
               </motion.h1>
 
