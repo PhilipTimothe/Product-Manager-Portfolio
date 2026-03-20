@@ -45,12 +45,16 @@ export default function About() {
               transition={{ duration: 0.6, ease: "easeOut" }}
               className="text-md text-black text-balance font-sans font-light text-left"
             >
-              I am a product and content lead who is all about doing the thing
-              others would run from. Trained in data and computer science and
-              shaped by a love of film and photography. I can get dialed in and
-              go deep when it counts. I care about the journey, the small wins,
-              and the big shifts. My hope is to use my talents in a way that
-              breeds more positivity.
+              I’m a technical operator who leans into the messy, complex
+              problems that others might avoid. My approach is built on a
+              collision of software engineering and data science, grounded by a
+              creative perspective shaped by film and photography. I’m at my
+              best when I’m going deep into the details to build frameworks that
+              create clarity and momentum out of friction. I value the
+              discipline of the small wins because that’s how you achieve big,
+              systemic shifts. Ultimately, I want to use these tools to build
+              systems that solve real problems and leave a positive, lasting
+              impact.
             </motion.p>
           </div>
 
