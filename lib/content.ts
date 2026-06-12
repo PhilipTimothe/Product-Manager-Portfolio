@@ -29,7 +29,7 @@ export const caseStudies: Project[] = [
     subtitle: "Made to Be Used",
     image: "/GlowbarLogo.png",
     href: "/projects/glowbar",
-    meta: ["Glowbar", "[2023 – 2025]", "Content Strategy & Delivery"],
+    meta: ["Glowbar", "2023 – 2025", "Content Strategy & Delivery"],
     description:
       "Across two projects I produced the treatment-imagery library for Glowbar, capturing ten treatments and multiple models for use across their customer-facing channels. I led each from business objective to approved delivery, treating creative production as a structured process so every asset served a defined purpose and held one consistent visual standard. The library is live on Glowbar's core services page today.",
   },
