@@ -45,16 +45,16 @@ export default function About() {
               transition={{ duration: 0.6, ease: "easeOut" }}
               className="text-md text-black text-balance font-sans font-light text-left"
             >
-              I’m a technical operator who leans into the messy, complex
-              problems that others might avoid. My approach is built on a
-              collision of software engineering and data science, grounded by a
-              creative perspective shaped by film and photography. I’m at my
-              best when I’m going deep into the details to build frameworks that
-              create clarity and momentum out of friction. I value the
-              discipline of the small wins because that’s how you achieve big,
-              systemic shifts. Ultimately, I want to use these tools to build
-              systems that solve real problems and leave a positive, lasting
-              impact.
+              I'm a technical project manager who leans into the messy,
+              cross-functional problems most people would rather route around.
+              My approach comes out of a collision of software engineering and
+              data science, grounded by a creative perspective shaped by film
+              and photography. I'm at my best going deep into the details to
+              build the frameworks and workflows that turn friction into clarity
+              and momentum. I value the discipline of the small wins, because
+              that's how you get the big, systemic shifts. In the end, I want to
+              use these tools to build systems that solve real problems and
+              leave something better behind.
             </motion.p>
           </div>
 
@@ -78,28 +78,28 @@ export default function About() {
                   company: "WhiteCoatLab",
                   years: "2023 to Present",
                   detail:
-                    "Led whitecoatlab.co from early idea through launch, shaping it into a product and content platform that helps people understand the work, the process, and how to engage. Defined the direction, structure, and priorities, then worked hands on to turn research and insights into clear UX flows, service offerings, and story driven content. Built and shipped a mobile first React site with CI CD and Cloudflare, and led creative projects end to end for clients, coordinating across teams to deliver thoughtful work and support steady revenue growth.",
+                    "I founded WhiteCoatLab and run it as the single point of accountability for client delivery, from the first scope conversation to final handoff. Across 60+ projects for 8 to 10 clients, I've defined scope, timelines, and acceptance criteria, and coordinated design, engineering, and content teams to ship work that holds up. I built the review gates and clear up-front scope that keep revisions to 2 or 3 rounds without giving up quality, led the whitecoatlab.co re-architecture from scope to launch as a mobile-first React build with CI/CD on GitHub Actions and Cloudflare, and earned enough trust along the way that one client came back for 29 separate projects over two years.",
                 },
                 {
                   title: "Software Engineer · Apprentice",
                   company: "Splash",
                   years: "2021 to 2022",
                   detail:
-                    "Partnered with product and engineering in Agile sprints to deliver user-facing features. Built React components, integrated APIs, and improved onboarding and documentation to speed up team ramp time. Contributed to code reviews and QA cycles to raise quality and collaboration standards.",
+                    "I joined as an engineering apprentice and shipped real user-facing work alongside the product and engineering teams. I built React components, integrated APIs, and tightened onboarding and documentation to speed up team ramp time, while staying active in code reviews and QA cycles to keep quality and collaboration standards high.",
                 },
                 {
                   title: "Client Sales Associate",
                   company: "Gerber Group",
                   years: "2016 to 2020",
                   detail:
-                    "Built strong client relationships and improved processes through structured feedback loops. Collaborated across multi-level operations and service teams to streamline workflows and improve client satisfaction across the board.",
+                    "I owned client relationships and used structured feedback loops to improve how the operation ran. Working across multi-level operations and service teams, I streamlined workflows and lifted client satisfaction across the board.",
                 },
                 {
                   title: "Product Allocation Specialist",
                   company: "C&S Wholesale Grocers Inc.",
                   years: "2006 to 2013",
                   detail:
-                    "Re-engineered distribution workflows to boost daily output and save hours per shift, while maintaining quality standards. Partnered with warehousing, transportation, and planning to implement scalable improvements that improved efficiency and reliability across the supply chain.",
+                    "This is where I learned to find the friction in a system and re-engineer it. I redesigned distribution workflows to boost daily output by 40% and save hours per shift, partnering with warehousing, transportation, and planning to roll out scalable improvements that made the whole supply chain more efficient and reliable.",
                 },
               ].map((role, index) => (
                 <motion.div
@@ -144,41 +144,50 @@ export default function About() {
               transition={{ duration: 0.6 }}
             >
               {(() => {
-                const hardSkillsCol1 = [
-                  "SQL",
-                  "Tableau",
-                  "Exploratory Data Analysis (EDA)",
-                  "Statistical Analysis",
-                  "Predictive Modeling",
-                  "Data Storytelling",
-                  "Dashboard Design",
-                  "Data Visualization",
-                  "Business Intelligence",
-                ];
+                const hardSkillsCol1 = {
+                  label: "Project & Program",
+                  skills: [
+                    "Project Lifecycle Management",
+                    "Agile/Scrum",
+                    "Sprint Planning",
+                    "Workflow Optimization",
+                    "Information Architecture",
+                    "Wireframing & Prototyping",
+                    "A/B Testing",
+                  ],
+                };
 
-                const hardSkillsCol2 = [
-                  "Python (Pandas, NumPy, SciPy)",
-                  "JavaScript",
-                  "React.js",
-                  "Next.js",
-                  "Tailwind CSS",
-                  "Git",
-                  "AWS Fundamentals",
-                  "Jupyter Lab",
-                  "AI-Assisted Analysis",
-                ];
+                const hardSkillsCol2 = {
+                  label: "Engineering & Web",
+                  skills: [
+                    "JavaScript",
+                    "React.js",
+                    "Next.js",
+                    "Tailwind CSS",
+                    "Git",
+                    "AWS Fundamentals",
+                    "Responsive Web Design",
+                    "Prompt Engineering",
+                    "AI-Assisted Analysis",
+                  ],
+                };
 
-                const hardSkillsCol3 = [
-                  "Prompt Engineering",
-                  "Information Architecture",
-                  "Wireframing & Prototyping",
-                  "A/B Testing",
-                  "Responsive Web Design",
-                  "Project Lifecycle Management",
-                  "Agile/Scrum",
-                  "Sprint Planning",
-                  "Workflow Optimization",
-                ];
+                const hardSkillsCol3 = {
+                  label: "Data & Analytics",
+                  skills: [
+                    "SQL",
+                    "Python (Pandas, NumPy, SciPy)",
+                    "Exploratory Data Analysis",
+                    "Statistical Analysis",
+                    "Predictive Modeling",
+                    "Data Visualization",
+                    "Tableau",
+                    "Dashboard Design",
+                    "Business Intelligence",
+                    "Data Storytelling",
+                    "Jupyter Lab",
+                  ],
+                };
 
                 const softSkillsCol1 = [
                   "Communication & Collaboration",
@@ -229,21 +238,18 @@ export default function About() {
                         Hard Skills
                       </h3>
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                        <div className="text-[12px] sm:text-[13px] md:text-[14px] text-black/70 leading-relaxed font-light">
-                          {hardSkillsCol1.map((skill, index) => (
-                            <p key={index}>{skill}</p>
-                          ))}
-                        </div>
-                        <div className="text-[12px] sm:text-[13px] md:text-[14px] text-black/70 leading-relaxed font-light">
-                          {hardSkillsCol2.map((skill, index) => (
-                            <p key={index}>{skill}</p>
-                          ))}
-                        </div>
-                        <div className="text-[12px] sm:text-[13px] md:text-[14px] text-black/70 leading-relaxed font-light">
-                          {hardSkillsCol3.map((skill, index) => (
-                            <p key={index}>{skill}</p>
-                          ))}
-                        </div>
+                        {[hardSkillsCol1, hardSkillsCol2, hardSkillsCol3].map((col) => (
+                          <div key={col.label}>
+                            <p className="text-[11px] text-black/40 uppercase tracking-widest font-sans mb-2">
+                              {col.label}
+                            </p>
+                            <div className="text-[12px] sm:text-[13px] md:text-[14px] text-black/70 leading-relaxed font-light">
+                              {col.skills.map((skill, index) => (
+                                <p key={index}>{skill}</p>
+                              ))}
+                            </div>
+                          </div>
+                        ))}
                       </div>
                     </div>
 
@@ -392,7 +398,7 @@ export default function About() {
           </section>
 
           {/* Resume Download Section */}
-          <section className="mb-24">
+          {/* <section className="mb-24">
             <Container>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -423,7 +429,7 @@ export default function About() {
                 </a>
               </motion.div>
             </Container>
-          </section>
+          </section> */}
         </Container>
       </main>
 

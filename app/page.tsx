@@ -1,7 +1,7 @@
 "use client";
 
+import { Fragment, useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
 import Link from "next/link";
 import { Container } from "@/components/container";
 import { Button } from "@/components/button";
@@ -51,7 +51,7 @@ export default function Home() {
               >
                 <span className="text-lg md:text-xl">Philip Timothe</span>{" "}
                 <span className="text-base md:text-lg text-gray-400">
-                  — Technical Product & Operations Leader
+                  — Technical Project Manager
                 </span>
               </motion.h1>
 
@@ -70,14 +70,47 @@ export default function Home() {
                   max-w-6xl md:max-w-7xl          /* generous line length */
                   mb-12 text-left"
               >
-                A Technical Product & Operations Leader who optimizes complex
-                lifecycles through
+                A Technical Product Manager who turns complex, cross-functional
+                work into clear, shippable delivery, grounded in real
                 <span className="font-normal"> data</span>,
                 <span className="font-normal italic"> code</span>, and
                 {/* <span className="font-normal">storytelling</span> */}
                 {/* to turn complex problems into products people */}
-                <span className="font-semibold"> structured workflows</span>.
+                <span className="font-semibold"> process</span>.
               </motion.p>
+
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
+                className="flex flex-wrap items-center gap-y-1 text-xs text-black/40 font-sans mb-4"
+                aria-label="Key achievements"
+              >
+                {[
+                  "60+ Projects Delivered",
+                  "8 to 10 Clients",
+                  "40% Output Gains",
+                  "29-Project Client Relationship",
+                ].map((stat, i, arr) => (
+                  <Fragment key={stat}>
+                    <span>{stat}</span>
+                    {i < arr.length - 1 && (
+                      <span aria-hidden="true" className="mx-2 text-black/20">
+                        ·
+                      </span>
+                    )}
+                  </Fragment>
+                ))}
+              </motion.div>
+
+              {/* <motion.p
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.6, delay: 0.45, ease: "easeOut" }}
+                className="text-xs text-black/40 font-sans mb-6"
+              >
+                Open to Technical Project and Program Management roles
+              </motion.p> */}
 
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -100,6 +133,21 @@ export default function Home() {
                   className="bg-surface hover:bg-surface/80 text-black border border-border/20 rounded-full px-6 py-3 shadow-sm text-sm"
                 >
                   <Link href="/about">Get to Know Me</Link>
+                </Button>
+                <Button
+                  size="lg"
+                  variant="ghost"
+                  asChild
+                  className="bg-surface hover:bg-surface/80 text-black border border-border/20 rounded-full px-6 py-3 shadow-sm text-sm"
+                >
+                  <a
+                    href="/Technical Project Manager - Philip Timothe.pdf#page=1&zoom=120"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View resume PDF"
+                  >
+                    View Resume
+                  </a>
                 </Button>
               </motion.div>
             </motion.div>

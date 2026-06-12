@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { useState } from "react";
 import { motion } from "framer-motion";
@@ -49,9 +49,10 @@ export default function Contact() {
 
           {/* Paragraph */}
           <p className="text-sm md:text-base text-black/70 leading-relaxed font-light max-w-2xl mx-auto mb-12">
-            Every project starts with a conversation. Whether it's shaping a product, 
-            crafting a story, or exploring an idea, I'm always open to meaningful collaborations. 
-            Reach out and let's create something impactful together.
+            Every project starts with a conversation. I'm open to technical
+            project and program management roles, and always glad to talk
+            delivery, systems, or a problem you're trying to move forward. Reach
+            out and let's get into it.
           </p>
 
           {/* Buttons */}
