@@ -10,6 +10,20 @@ export interface Project {
 
 export const caseStudies: Project[] = [
   {
+    id: "darby",
+    title: "Darby Construction Services",
+    subtitle: "Showing the Work",
+    image: "/DarbyLogo.png",
+    href: "/projects/darby",
+    meta: [
+      "Darby Construction Services",
+      "2023 – 2025",
+      "Program & Delivery Management",
+    ],
+    description:
+      "Over two years I led 29 separate projects capturing Darby's completed construction through photography, film, and storytelling. I owned each engagement from scope to delivery, running a repeatable system that held one quality standard across constantly changing sites and cleared every asset against the end client's bar before release.",
+  },
+  {
     id: "whitecoatlab",
     title: "WhiteCoatLab.co",
     subtitle: "Designing Trust Through Creativity",
