@@ -55,7 +55,7 @@ export const caseStudies: Project[] = [
       "Content & Product Strategy",
     ],
     description:
-      "I designed and executed a short-form social series to help a music artist establish an organic audience foundation. Through intentionally raw, conversational content, I built a repeatable system that balances authenticity with strategic structure, creating consistent touchpoints that build trust and recognition over time.",
+      "I led a short-form social series for a client in the music space, owning it from concept to delivery. I set the goal, defined the content approach, and built a repeatable production system that kept publishing consistent and on cadence, creating steady touchpoints that grew audience trust over time.",
   },
   {
     id: "micro-documentary",
