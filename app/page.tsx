@@ -51,7 +51,7 @@ export default function Home() {
               >
                 <span className="text-lg md:text-xl">Philip Timothe</span>{" "}
                 <span className="text-base md:text-lg text-gray-400">
-                  — Technical Project Manager
+                  — Delivery & Implementation Manager
                 </span>
               </motion.h1>
 
@@ -70,13 +70,14 @@ export default function Home() {
                   max-w-6xl md:max-w-7xl          /* generous line length */
                   mb-12 text-left"
               >
-                A Technical Product Manager who turns complex, cross-functional
-                work into clear, shippable delivery, grounded in real
-                <span className="font-normal"> data</span>,
-                <span className="font-normal italic"> code</span>, and
+                A Delievery & Implementation Manager who turns complex,
+                cross-functional work into clear, shippable delivery, grounded
+                in real
+                <span className="font-normal"> process</span>,
+                <span className="font-normal italic"> ownership</span>, and
                 {/* <span className="font-normal">storytelling</span> */}
                 {/* to turn complex problems into products people */}
-                <span className="font-semibold"> process</span>.
+                <span className="font-semibold"> follow-through</span>.
               </motion.p>
 
               <motion.div

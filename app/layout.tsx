@@ -17,23 +17,29 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Philip Timothe – Technical Product Manager",
+  title: "Philip Timothe | Delivery & Implementation Manager",
   description:
-    "Technical Product & Operations Leader specializing in the collision of software engineering, data science, and operational efficiency. I build the structured frameworks and data-driven systems required to turn complex organizational friction into scalable digital products.",
-
+    "Delivery and implementation leader. I take client engagements from kickoff to go-live as the single point of accountability. 60-plus delivered.",
   openGraph: {
-    title: "Philip Timothe – Technical Product Manager",
+    title: "Philip Timothe | Delivery & Implementation Manager",
     description:
-      "Technical Product & Operations Leader specializing in the collision of software engineering, data science, and operational efficiency. I build the structured frameworks and data-driven systems required to turn complex organizational friction into scalable digital products.",
+      "I take client engagements from kickoff to go-live as the single point of accountability, across design, engineering, and content. 60-plus delivered.",
+    url: "https://philiptimothe.com",
     type: "website",
-    images: ["/PhilipTimothe.jpg"], // social sharing preview s
+    images: [
+      {
+        url: "/PhilipTimothe.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Philip Timothe, Delivery & Implementation Manager",
+      },
+    ],
   },
-
   twitter: {
     card: "summary_large_image",
-    title: "Philip Timothe – Technical Product Manager",
+    title: "Philip Timothe | Delivery & Implementation Manager",
     description:
-      "Technical Product & Operations Leader specializing in the collision of software engineering, data science, and operational efficiency. I build the structured frameworks and data-driven systems required to turn complex organizational friction into scalable digital products.",
+      "I take client engagements from kickoff to go-live as the single point of accountability. 60-plus delivered.",
     images: ["/PhilipTimothe.jpg"], // Twitter preview
   },
 
