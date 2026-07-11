@@ -142,7 +142,7 @@ export default function Home() {
                   className="bg-surface hover:bg-surface/80 text-black border border-border/20 rounded-full px-6 py-3 shadow-sm text-sm"
                 >
                   <a
-                    href="/Technical Project Manager - Philip Timothe.pdf#page=1&zoom=120"
+                    href="/Delivery Implementation Manager - Philip Timothe.pdf#page=1&zoom=120"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="View resume PDF"
